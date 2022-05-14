@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Cinzel', serif;
+}
+
+.bgGradiente {
+    width: 100vw;
+    height: 200vh;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,18,25,1) 65%, rgba(0,44,61,1) 90%);
+}
+
+.fotoTitulo {
+    height: 60vh;
+    overflow: hidden;
+}
+
+.fotoTitulo img {
+    width: 100vw;
+    margin-top: -300px;
+}
+
+/*************************** HEADER ***************************/
+header {
+    width: 100vw;
+}
+
+h1 {
+    color: #bfd4d4;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.barraList {
+    font-size: 1.5rem;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.barraElement {
+    padding: 2rem;
+}
+
+.barraElement a {
+    color: #0a9396;
+    text-decoration: none;
+}
+
+/*************************** MAIN ***************************/
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.infoMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video {
+    height: 520px;
+    width: 950px;
+}
+
+.primerBtn {
+    font-family: 'Cinzel', serif;
+    margin: 4rem;
+    padding: 15px;
+    background-color: #bfd4d4;
+    text-decoration: none;
+    font-size: 3rem;
+    border: solid whitesmoke;
+    cursor: pointer;
+}
+
+.primerBtn:hover {
+    background-color: #0a9396;
+}
+
+.h2Info {
+    text-align: center;
+    color: #bfd4d4;
+    font-size: 3.2rem;
+    margin: 3rem;
+}
