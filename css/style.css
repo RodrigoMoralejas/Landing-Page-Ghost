@@ -12,8 +12,8 @@ body {
 .bgGradiente {
     width: 100vw;
     height: 200vh;
-    background: rgb(0,0,0);
-    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,18,25,1) 65%, rgba(0,44,61,1) 90%);
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 18, 25, 1) 65%, rgba(0, 44, 61, 1) 90%);
 }
 
 .fotoTitulo {
@@ -77,10 +77,10 @@ h1 {
 .primerBtn {
     font-family: 'Cinzel', serif;
     margin: 4rem;
-    padding: 15px;
+    padding: 10px;
     background-color: #bfd4d4;
     text-decoration: none;
-    font-size: 3rem;
+    font-size: 2.8rem;
     border: solid whitesmoke;
     cursor: pointer;
 }
@@ -94,4 +94,52 @@ h1 {
     color: #bfd4d4;
     font-size: 3.2rem;
     margin: 3rem;
+}
+
+/************************* SECTION CARDS *************************/
+
+.sectionCards {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #bfd4d4;
+    margin: 2rem;
+    padding: 2px;
+    height: 400px;
+    width: 300px;
+}
+
+.topCard {
+    overflow: hidden;
+    height: 300px;
+    width: 300px;
+}
+
+.topCard img {
+    color: #0a9396;
+}
+
+.midCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.midCard h2 {
+    color: #0a9396;
+}
+
+.botCard h3 {
+    color: #0a9396;
 }
