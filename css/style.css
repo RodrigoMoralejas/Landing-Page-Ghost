@@ -56,7 +56,7 @@ h1 {
 }
 
 /*************************** MAIN ***************************/
-.main {
+main {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,13 +114,13 @@ h1 {
     background-color: #bfd4d4;
     margin: 2rem;
     padding: 2px;
-    height: 400px;
+    height: 450px;
     width: 300px;
 }
 
 .topCard {
     overflow: hidden;
-    height: 300px;
+    height: 400px;
     width: 300px;
 }
 
@@ -142,4 +142,39 @@ h1 {
 
 .botCard h3 {
     color: #0a9396;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-areas: 
+    "cardUno"     "cardDos"     "cardTres"
+        "cardCuatro"      "cardCinco"
+    ;  
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.cardUno {
+    grid-area: cardUno;
+    margin: 0 auto;
+}
+
+.cardDos {
+    grid-area: cardDos;
+    margin: 0 auto;
+}
+
+.cardTres {
+    grid-area: cardTres;
+    margin: 0 auto;
+}
+
+.cardCuatro {
+    grid-area: cardCuatro;
+    margin: 0 auto;
+}
+
+.cardCinco {
+    grid-area: cardCinco;
+    margin: 0 auto;
 }
