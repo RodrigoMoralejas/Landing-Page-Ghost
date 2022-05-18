@@ -17,7 +17,8 @@ body {
 }
 
 .fotoTitulo {
-    height: 60vh;
+    height: 70vh;
+    width: 100vw;
     overflow: hidden;
 }
 
@@ -98,14 +99,6 @@ main {
 
 /************************* SECTION CARDS *************************/
 
-.sectionCards {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .cardBody {
     display: flex;
     justify-content: center;
@@ -140,41 +133,20 @@ main {
     color: #0a9396;
 }
 
+.botCard {
+    width: 90%;
+}
+
 .botCard h3 {
+    padding: 1rem 0;
+    text-align: center;
+    border-top: 2px solid black;
     color: #0a9396;
 }
 
 .gridContainer {
-    display: grid;
-    grid-template-areas: 
-    "cardUno"     "cardDos"     "cardTres"
-        "cardCuatro"      "cardCinco"
-    ;  
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: center;
     align-items: center;
-}
-
-.cardUno {
-    grid-area: cardUno;
-    margin: 0 auto;
-}
-
-.cardDos {
-    grid-area: cardDos;
-    margin: 0 auto;
-}
-
-.cardTres {
-    grid-area: cardTres;
-    margin: 0 auto;
-}
-
-.cardCuatro {
-    grid-area: cardCuatro;
-    margin: 0 auto;
-}
-
-.cardCinco {
-    grid-area: cardCinco;
-    margin: 0 auto;
+    flex-wrap: wrap;
 }
