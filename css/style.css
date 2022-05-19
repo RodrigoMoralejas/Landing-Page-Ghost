@@ -146,3 +146,39 @@ main {
     align-items: center;
     flex-wrap: wrap;
 }
+
+/*************************** FOOTER ***************************/
+
+.barraFooter {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem;
+}
+
+
+.barraListFooter {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.elementFooter a {
+    padding: 2rem;
+    color: #0a9396;
+    text-decoration: none;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logosEnd {
+    padding: 1rem;
+}
+
