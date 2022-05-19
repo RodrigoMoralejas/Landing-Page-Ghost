@@ -117,10 +117,6 @@ main {
     width: 300px;
 }
 
-.topCard img {
-    color: #0a9396;
-}
-
 .midCard {
     display: flex;
     justify-content: center;
@@ -144,7 +140,7 @@ main {
     color: #0a9396;
 }
 
-.gridContainer {
+.sectionCards {
     display: flex;
     justify-content: center;
     align-items: center;
