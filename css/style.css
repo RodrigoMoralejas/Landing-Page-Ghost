@@ -11,7 +11,7 @@ body {
 
 .bgGradiente {
     width: 100vw;
-    height: 200vh;
+    height: 370vh;
     background: rgb(0, 0, 0);
     background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 18, 25, 1) 65%, rgba(0, 44, 61, 1) 90%);
 }
@@ -149,8 +149,7 @@ main {
 
 /*************************** FOOTER ***************************/
 
-.barraFooter {
-    background-color: aquamarine;
+.barraFooter {  
     display: flex;
     justify-content: center;
     align-items: center;
@@ -168,11 +167,12 @@ main {
 
 .elementFooter a {
     padding: 2rem;
-    color: #0a9396;
+    color: #bfd4d4;
     text-decoration: none;
 }
 
 h3 {
+    color: #bfd4d4;
     display: flex;
     justify-content: center;
     align-items: center;
